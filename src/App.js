@@ -1,7 +1,13 @@
+import { Console } from '@woowacourse/mission-utils';
+
 class App {
   async play() {
-    console.log("start");
+    Console.print("HI");
+    console.log("BYE");
   }
 }
+
+const game = new App();
+game.play();
 
 export default App;
